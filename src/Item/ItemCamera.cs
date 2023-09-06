@@ -89,7 +89,7 @@ namespace kosphotography
 
                         PhotoBitmap bitmap = new PhotoBitmap();
 
-                        //SKBitmap bmp = ModSystemPhotograph.GrabScreenshot(capi, new Size2i((int)Math.Pow(2, KosPhotographyConfig.Current.PhotographLod), (int)Math.Pow(2, KosPhotographyConfig.Current.PhotographLod)), true, false, true);
+                        SKBitmap bmp = ModSystemPhotograph.GrabScreenshot(capi, new Size2i((int)Math.Pow(2, KosPhotographyConfig.Current.PhotographLod), (int)Math.Pow(2, KosPhotographyConfig.Current.PhotographLod)), true, false, true);
 
                         //Screenshot screenshot = new Screenshot();
 
@@ -102,7 +102,7 @@ namespace kosphotography
                         bmp = new Bitmap(bmp, new Size(bmp.Width / (bmp.Height / (int)Math.Pow(2, KosPhotographyConfig.Current.PhotographLod)), (int)Math.Pow(2, KosPhotographyConfig.Current.PhotographLod)));
                         */
 
-                        //bitmap.setBitmap(bmp);
+                        bitmap.setBitmap(bmp);
 
                         photoModSys.takePhoto(player, bitmap.PixelsGrayscale, bitmap.Width, bitmap.Height);
                     }
