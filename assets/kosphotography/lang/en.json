@@ -1,0 +1,26 @@
+{
+  "item-camera": "Camera",
+
+  "item-photograph": "Photograph",
+  "incontainer-item-photograph": "Photograph",
+  "game:incontainer-item-photograph": "Photograph",
+
+  "item-photographicpaper": "Photographic paper",
+  "incontainer-item-photographicpaper": "Photographic paper",
+  "game:incontainer-item-photographicpaper": "Photographic paper",
+
+  "item-saltedpaper": "Salted paper",
+  "incontainer-item-saltedpaper": "Salted paper",
+  "game:incontainer-item-saltedpaper": "Salted paper",
+
+  "game:heldhelp-takephoto": "Take photograph",
+
+  "block-photographframepainting-*": "Photograph frame",
+  "block-photographframestand-*": "Photograph frame (stand)",
+  "block-photographframeborderless-*": "Photograph frame (borderless)",
+
+  "item-silvernitrateportion": "Silver nitrate",
+  "incontainer-item-silvernitrateportion": "Silver nitrate",
+  "game:incontainer-item-silvernitrateportion": "Silver nitrate",
+  "itemdesc-silvernitrateportion": "AgNO<font size=\"10\">3</font>"
+}
